@@ -22,6 +22,7 @@ namespace WebApi
             services.AddCors();
             services.AddControllers();
 
+
             // configure strongly typed settings object
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
